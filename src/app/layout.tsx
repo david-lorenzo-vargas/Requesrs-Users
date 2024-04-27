@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata = {
   title: 'Requesrs',
   description: 'Requesrs',
-}
+};
 
 export default function RootLayout({
   children,
@@ -20,5 +20,5 @@ export default function RootLayout({
         </div>
       </body>
     </html>
-  )
-}
+  );
+};
