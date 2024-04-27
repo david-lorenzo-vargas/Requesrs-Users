@@ -36,6 +36,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Description
 
+App that displays users fetched from external API. Scroll down to reach the end of user list and use pagination for moving forward the pages and fetch new users.
+
+The URL gets updated based on params passed and the users get fetched based on those params. Once you reach the end of the available pages, you cannot click to move forward and you can only go back to previous pages.
+
+Click on an specific page number to jump to that page, or change the URL manually. If the number of page enter manually does not have users, a warning message gets render in the page saying "There are not users".
+
+The number of pages avaialbe in pagination are based on number of pages available comming from API.
+
+Select a user to be redirected to a dynamic route based on user ID and see that specific user details.
+
+Click on page header logo and go back to page 1 of users.
+
+If the user changes manually the URL and the user does not exist, we redirect the user to a custom 404 page to notify that the user does not exist.
 
 ## Demo
 
