@@ -59,9 +59,22 @@ Atomic approach has been used for structuring and ordering the componets separat
 
 ## Dynamic routes
 
-Dynamic routes created for re directing the user to a route based on the userId selected
+Dynamic routes created for re directing the user to a route based on the userId selected.
 
-For example `/users/1`
+All routes organized inside (routes) dir so it doesnt affect the URL.
+
+For example `/users/1`.
+
+Structure:
+
+```bash
+  src/
+    | app/
+    | (routes)/
+      | 404
+      | users/
+        | [id]
+```       
 
 ## 404
 
