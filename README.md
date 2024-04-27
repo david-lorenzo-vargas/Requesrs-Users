@@ -95,7 +95,8 @@ Native HTML tags with WAI-ARIA Roles have been used for accessibility which woul
 
 An 96 overall score achieved in Lighthouse tool
 
-![Screenshot 2024-04-26 at 21 30 14](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/75caa90b-7489-429a-946b-d6d268d984e3)
+![Screenshot 2024-04-27 at 15 07 28](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/734770cc-d653-47b6-b503-ceff74a8a467)
+
 
 ## Responsiveness
 
