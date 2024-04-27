@@ -67,6 +67,8 @@ For example `/users/1`
 
 If the user enters manually an URL for fetching a user by ID but this uer does not exist, we receive `status 404` from fetchUserOne utility and we redirect the user to 404 route where we render a component with a 404 SVG icon and a message
 
+![Screenshot 2024-04-27 at 14 53 41](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/e97a20e4-e177-4f18-a87f-bd4bebebcb53)
+
 ## Alias
 
 Alias added for improting utilities, types and icons.
@@ -93,15 +95,25 @@ Native HTML tags with WAI-ARIA Roles have been used for accessibility which woul
 
 An 96 overall score achieved in Lighthouse tool
 
+![Screenshot 2024-04-26 at 21 30 14](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/75caa90b-7489-429a-946b-d6d268d984e3)
+
 ## Responsiveness
 
 The app is responsive and adjusts to desktop, tablet and mobile viewports, media queries have been added via Tailwind for adjusting the design to the screen size.
 
 ### Mobile
 
+![Screenshot 2024-04-26 at 21 34 43](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/87cd776d-5aac-41f1-9e7b-18e387b9580b)
+
 ### Tablet
 
+![Screenshot 2024-04-26 at 21 36 12](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/81afd7f4-337a-4adb-8998-9329f9731b69)
+
+![Screenshot 2024-04-26 at 21 36 00](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/10de6763-5c6c-4d23-b80c-e4786412f589)
+
 ### Desktop
+
+![Screenshot 2024-04-26 at 21 36 29](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/7076d860-2033-4247-ad5d-c1a27a791c8a)
 
 ## Further implementation
 
