@@ -3,6 +3,16 @@ const path = require('path');
 dotenv.config();
 
 module.exports = {
+  async redirects () {
+    return [
+      {
+        source: '/',
+        destination: '/users?page=1',
+        permanent: true,
+        basePath: false,
+      }
+    ]
+  },
   env: {
     REQUESRS_API_ENDPOINT_USERS: process.env.REQUESRS_API_ENDPOINT_USERS,
   },
