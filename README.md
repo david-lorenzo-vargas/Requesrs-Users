@@ -6,14 +6,15 @@
 4. [Stack](#stack)
 5. [Types](#types)
 6. [Atomic approach](#atomic-approach)
-7. [Next.config](#next-config)
-8. [Dynamic routes](#dynamic-routes)
-9. [404](#404)
-10. [Alias](#alias)
-11. [Testing](#testing)
-12. [Accessibility](#accessibility)
-13. [Responsiveness](#responsiveness)
-14. [Further implementation](#further-implementation)
+7. [Memoization](#memoization)
+8. [Next Config](#next-config)
+9. [Dynamic routes](#dynamic-routes)
+10. [404](#404)
+11. [Alias](#alias)
+12. [Testing](#testing)
+13. [Accessibility](#accessibility)
+14. [Responsiveness](#responsiveness)
+15. [Further implementation](#further-implementation)
 
 ## Getting Started
 
@@ -73,7 +74,12 @@ All types and enums have been declared in a `Types/types.ts`
 
 Atomic approach has been used for structuring and ordering the componets devided by `Atoms`, `Molecules` and `Organisms`.
 
-## Next.config
+## Memoization
+
+Memoization has been implemented for better performance, faster rendering and avoid unnecesary re-renderings by using `useMemo` and `useCallback` React Hooks.
+
+
+## Next Config
 
 Next.config.js file modified to set `/users?page=1` as home page so when users land on `localhost:3000` or `localhost:3000/` they get automaticaly redirected.
 
