@@ -40,13 +40,13 @@ App that displays users fetched from external API. Scroll down to reach the end 
 
 The URL gets updated based on params passed and the users get fetched based on those params. Once you reach the end of the available pages, you cannot click to move forward and you can only go back to previous pages.
 
-Click on an specific page number to jump to that page, or change the URL manually. If the number of page enter manually does not have users, a warning message gets render in the page saying "There are not users".
+Click on an specific page number to jump to that page, or change the URL manually. If the page number entered manually does not have users, a warning message gets rendered in the page saying "There are not users".
 
-The number of pages avaialbe in pagination are based on number of pages available comming from API.
+The number of pages available in pagination are based on number of pages available coming from API.
 
-Select a user to be redirected to a dynamic route based on user ID and see that specific user details.
+Select a user to be redirected to a dynamic route based on user ID and see that specific user's details.
 
-Click on page header logo and go back to page 1 of users.
+Click on page header logo and go back to page 1 of users list.
 
 If the user changes manually the URL and the user does not exist, we redirect the user to a custom 404 page to notify that the user does not exist.
 
@@ -70,13 +70,13 @@ All types and enums have been declared in a `Types/types.ts`
 
 ## Atomic approach
 
-Atomic approach has been used for structuring and ordering the componets separated in 'atoms', 'molecules' and 'organisms'.
+Atomic approach has been used for structuring and ordering the componets devided by `Atoms`, `Molecules` and `Organisms`.
 
 ## Dynamic routes
 
-Dynamic routes created for re directing the user to a route based on the userId selected.
+Dynamic routes created for redirecting the user to a route based on the userId selected.
 
-All routes organized inside (routes) dir so it doesnt affect the URL.
+All routes organised inside (routes) dir so it doesn't affect the URL.
 
 For example `/users/1`.
 
@@ -93,7 +93,7 @@ Structure:
 
 ## 404
 
-If the user enters manually an URL for fetching a user by ID but this uer does not exist, we receive `status 404` from fetchUserOne utility and we redirect the user to 404 route where we render a component with a 404 SVG icon and a message
+If the user enters manually an URL for fetching a user by ID but this user does not exist, we receive `status 404` from fetchUserOne utility and we redirect the user to 404 route where we render a component with a 404 SVG icon and a message
 
 ![Screenshot 2024-04-27 at 14 53 41](https://github.com/david-lorenzo-vargas/Requesrs-Users/assets/72414745/e97a20e4-e177-4f18-a87f-bd4bebebcb53)
 
@@ -115,7 +115,7 @@ Alias added for improting utilities, types and icons.
 
 Jest and React Testing Library have been used for testing. Testing has been added for some components but, as further implementation, it would be necessary to add more unit and integration testing for other functionalities and components.
 
-For running tests: `npm run test`
+To run tests: `npm run test`
 
 ## Accessibility
 
@@ -146,5 +146,5 @@ The app is responsive and adjusts to desktop, tablet and mobile viewports, media
 
 ## Further implementation
 
-1. Add edit user, create new user, delete user functionality using the endpoints given in the task.
+1. Add edit user, create new user, delete user functionality.
 2. Add elastic search for filtering users by name, surname, email...
