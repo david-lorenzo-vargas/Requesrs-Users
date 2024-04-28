@@ -9,7 +9,7 @@ const HomePage = () => {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    //we redirect the user to /users?page=1
+    //on component did mount we redirect the user to /users?page=1
     const params = new URLSearchParams(searchParams);
     params.set('page', '1'); 
 
