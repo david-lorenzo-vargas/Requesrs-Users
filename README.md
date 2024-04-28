@@ -6,13 +6,14 @@
 4. [Stack](#stack)
 5. [Types](#types)
 6. [Atomic approach](#atomic-approach)
-7. [Dynamic routes](#dynamic-routes)
-8. [404](#404)
-9. [Alias](#alias)
-10. [Testing](#testing)
-11. [Accessibility](#accessibility)
-12. [Responsiveness](#responsiveness)
-13. [Further implementation](#further-implementation)
+7. [Next.config](#next-config)
+8. [Dynamic routes](#dynamic-routes)
+9. [404](#404)
+10. [Alias](#alias)
+11. [Testing](#testing)
+12. [Accessibility](#accessibility)
+13. [Responsiveness](#responsiveness)
+14. [Further implementation](#further-implementation)
 
 ## Getting Started
 
@@ -71,6 +72,25 @@ All types and enums have been declared in a `Types/types.ts`
 ## Atomic approach
 
 Atomic approach has been used for structuring and ordering the componets devided by `Atoms`, `Molecules` and `Organisms`.
+
+## Next.config
+
+Next.config.js file modified to set `/users?page=1` as home page so when users land on `localhost:3000` or `localhost:3000/` they get automaticaly redirected.
+
+```bash
+  module.exports = {
+    async redirects () {
+      return [
+        {
+          source: '/',
+          destination: '/users?page=1',
+          permanent: true,
+          basePath: false,
+        }
+      ]
+    },
+  }
+```
 
 ## Dynamic routes
 
