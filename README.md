@@ -168,3 +168,4 @@ The app is responsive and adjusts to desktop, tablet and mobile viewports, media
 
 1. Add edit user, create new user, delete user functionality.
 2. Add elastic search for filtering users by name, surname, email...
+3. Add go to last page, go to first page in pagination
