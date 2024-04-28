@@ -172,7 +172,7 @@ The app is responsive and adjusts to desktop, tablet and mobile viewports, media
 
 ## Further implementation
 
-1. Implement `getServerSideProps` for fetching the data in the server side instead of client side. This will require a page dir with all the routes which will add the word "pages" in the URL like `localhost:3000/pages/users?page=1`. In order to avoid that there will need to be some further implementation to hide it in order to have the following URL `localhost:3000/users?page=1`.
+1. Implement `getServerSideProps` for fetching the data in the server side instead of client side for better performance. This will require a page dir with all the routes which will add the word "pages" in the URL like `localhost:3000/pages/users?page=1`. In order to avoid that there will need to be some further implementation to hide it in order to have the following URL `localhost:3000/users?page=1`.
 2. Add edit user, create new user, delete user functionality.
 3. Add elastic search for filtering users by name, surname, email...
 4. Add go to last page, go to first page in pagination.
